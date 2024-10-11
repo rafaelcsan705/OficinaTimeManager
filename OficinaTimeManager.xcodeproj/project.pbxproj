@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		887C6BED2CB9A12900680171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887C6BD42CB9A12600680171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887C6BDB2CB9A12600680171;
+			remoteInfo = OficinaTimeManager;
+		};
+		887C6BF72CB9A12900680171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887C6BD42CB9A12600680171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887C6BDB2CB9A12600680171;
+			remoteInfo = OficinaTimeManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		887C6BDC2CB9A12600680171 /* OficinaTimeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OficinaTimeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		887C6BEC2CB9A12900680171 /* OficinaTimeManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OficinaTimeManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887C6BF62CB9A12900680171 /* OficinaTimeManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OficinaTimeManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		887C6BDE2CB9A12600680171 /* OficinaTimeManager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OficinaTimeManager;
+			sourceTree = "<group>";
+		};
+		887C6BEF2CB9A12900680171 /* OficinaTimeManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OficinaTimeManagerTests;
+			sourceTree = "<group>";
+		};
+		887C6BF92CB9A12900680171 /* OficinaTimeManagerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OficinaTimeManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887C6BD92CB9A12600680171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C6BE92CB9A12900680171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C6BF32CB9A12900680171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		887C6BD32CB9A12600680171 = {
+			isa = PBXGroup;
+			children = (
+				887C6BDE2CB9A12600680171 /* OficinaTimeManager */,
+				887C6BEF2CB9A12900680171 /* OficinaTimeManagerTests */,
+				887C6BF92CB9A12900680171 /* OficinaTimeManagerUITests */,
+				887C6BDD2CB9A12600680171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		887C6BDD2CB9A12600680171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887C6BDC2CB9A12600680171 /* OficinaTimeManager.app */,
+				887C6BEC2CB9A12900680171 /* OficinaTimeManagerTests.xctest */,
+				887C6BF62CB9A12900680171 /* OficinaTimeManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887C6BDB2CB9A12600680171 /* OficinaTimeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C6C002CB9A12900680171 /* Build configuration list for PBXNativeTarget "OficinaTimeManager" */;
+			buildPhases = (
+				887C6BD82CB9A12600680171 /* Sources */,
+				887C6BD92CB9A12600680171 /* Frameworks */,
+				887C6BDA2CB9A12600680171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				887C6BDE2CB9A12600680171 /* OficinaTimeManager */,
+			);
+			name = OficinaTimeManager;
+			packageProductDependencies = (
+			);
+			productName = OficinaTimeManager;
+			productReference = 887C6BDC2CB9A12600680171 /* OficinaTimeManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		887C6BEB2CB9A12900680171 /* OficinaTimeManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C6C032CB9A12900680171 /* Build configuration list for PBXNativeTarget "OficinaTimeManagerTests" */;
+			buildPhases = (
+				887C6BE82CB9A12900680171 /* Sources */,
+				887C6BE92CB9A12900680171 /* Frameworks */,
+				887C6BEA2CB9A12900680171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887C6BEE2CB9A12900680171 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				887C6BEF2CB9A12900680171 /* OficinaTimeManagerTests */,
+			);
+			name = OficinaTimeManagerTests;
+			packageProductDependencies = (
+			);
+			productName = OficinaTimeManagerTests;
+			productReference = 887C6BEC2CB9A12900680171 /* OficinaTimeManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		887C6BF52CB9A12900680171 /* OficinaTimeManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C6C062CB9A12900680171 /* Build configuration list for PBXNativeTarget "OficinaTimeManagerUITests" */;
+			buildPhases = (
+				887C6BF22CB9A12900680171 /* Sources */,
+				887C6BF32CB9A12900680171 /* Frameworks */,
+				887C6BF42CB9A12900680171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887C6BF82CB9A12900680171 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				887C6BF92CB9A12900680171 /* OficinaTimeManagerUITests */,
+			);
+			name = OficinaTimeManagerUITests;
+			packageProductDependencies = (
+			);
+			productName = OficinaTimeManagerUITests;
+			productReference = 887C6BF62CB9A12900680171 /* OficinaTimeManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887C6BD42CB9A12600680171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					887C6BDB2CB9A12600680171 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					887C6BEB2CB9A12900680171 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 887C6BDB2CB9A12600680171;
+					};
+					887C6BF52CB9A12900680171 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 887C6BDB2CB9A12600680171;
+					};
+				};
+			};
+			buildConfigurationList = 887C6BD72CB9A12600680171 /* Build configuration list for PBXProject "OficinaTimeManager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 887C6BD32CB9A12600680171;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 887C6BDD2CB9A12600680171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887C6BDB2CB9A12600680171 /* OficinaTimeManager */,
+				887C6BEB2CB9A12900680171 /* OficinaTimeManagerTests */,
+				887C6BF52CB9A12900680171 /* OficinaTimeManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887C6BDA2CB9A12600680171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C6BEA2CB9A12900680171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C6BF42CB9A12900680171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887C6BD82CB9A12600680171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C6BE82CB9A12900680171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C6BF22CB9A12900680171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		887C6BEE2CB9A12900680171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887C6BDB2CB9A12600680171 /* OficinaTimeManager */;
+			targetProxy = 887C6BED2CB9A12900680171 /* PBXContainerItemProxy */;
+		};
+		887C6BF82CB9A12900680171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887C6BDB2CB9A12600680171 /* OficinaTimeManager */;
+			targetProxy = 887C6BF72CB9A12900680171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		887C6BFE2CB9A12900680171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		887C6BFF2CB9A12900680171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		887C6C012CB9A12900680171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OficinaTimeManager/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.OficinaTimeManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		887C6C022CB9A12900680171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OficinaTimeManager/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.OficinaTimeManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		887C6C042CB9A12900680171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.OficinaTimeManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OficinaTimeManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OficinaTimeManager";
+			};
+			name = Debug;
+		};
+		887C6C052CB9A12900680171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.OficinaTimeManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OficinaTimeManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OficinaTimeManager";
+			};
+			name = Release;
+		};
+		887C6C072CB9A12900680171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.OficinaTimeManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OficinaTimeManager;
+			};
+			name = Debug;
+		};
+		887C6C082CB9A12900680171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JSPBLZJX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelsantos.OficinaTimeManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OficinaTimeManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887C6BD72CB9A12600680171 /* Build configuration list for PBXProject "OficinaTimeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C6BFE2CB9A12900680171 /* Debug */,
+				887C6BFF2CB9A12900680171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C6C002CB9A12900680171 /* Build configuration list for PBXNativeTarget "OficinaTimeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C6C012CB9A12900680171 /* Debug */,
+				887C6C022CB9A12900680171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C6C032CB9A12900680171 /* Build configuration list for PBXNativeTarget "OficinaTimeManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C6C042CB9A12900680171 /* Debug */,
+				887C6C052CB9A12900680171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C6C062CB9A12900680171 /* Build configuration list for PBXNativeTarget "OficinaTimeManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C6C072CB9A12900680171 /* Debug */,
+				887C6C082CB9A12900680171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 887C6BD42CB9A12600680171 /* Project object */;
+}
